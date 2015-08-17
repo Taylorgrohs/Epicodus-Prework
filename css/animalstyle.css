@@ -1,34 +1,51 @@
+.clear {
+	clear: both;
+}
+a{
+	color: gold;
+}
+
+
 body {
 	background: url('../images/pawprints.jpg');
 	color: white;
 	font-size: 30px;
 }
 .post {
-	border: 1px solid black;
-	
-	padding: 0 0 25px 25px;
-
+	border: 5px solid black;
+	margin: 10px 10px 10px 10px;
+	height: 250px;
+	background: rgba(0, 0, 0, 0.7);
 }
 .header {
-	
+	background: rgba(0, 0, 0, 0.7);
 	width: 300px;
 	text-align: center;
 	margin: auto;
+	border: 5px solid black;
 }
 .footer {
 	margin: auto;
 	text-align: center;
+	background: rgba(0, 0, 255, 0.7);
 }
 img {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+	padding: 0;
+	width: 400px;
+	margin-top: 10px;
+	border: 2px solid black;
 }
 .postcat {
 	border: 1px solid black;
 	background: rgba(0, 0, 0, 0.7);
-	padding: 0 0 25px 25px;
+	padding: 0 25px 25px 25px;
 	text-align: center;
+	float: left;
+	border: 5px solid black;
+	margin: 10px;
 }
 ul{
 display: inline-block;
@@ -37,10 +54,30 @@ display: inline-block;
     }
 .body {
 	float:left;
-	background: rgba(0, 0, 0, 0.7);
+	
+	width: 60%;
+}
+.bodycat {
+	float:left;
 	width: 70%;
+	padding: 0 50px 0 400px;
+	margin: auto 25px 25px auto;
 }
 .sidebar {
 	float: left;
 	width: 30%;
+	background: rgba(255, 0, 0, 0.7);
+	padding:0 20px;
+	border: 5px solid maroon;
+	margin: 10px;
+}
+ul.dog{
+display: inline-block;
+        margin-left: 25px;
+        padding: 25px;
+    }
+.catimage {
+	border: 2px solid black;
+	padding: 0;
+	margin-bottom: 10px;
 }

@@ -1,0 +1,31 @@
+body {
+	background: url('../images/japanbackground.jpg');
+}
+.column {
+	width: 25%;
+	float:left;
+	padding: 50px;
+	margin: 50px;
+}
+.column2 {
+	width: 25%;
+	float: left;
+	padding: 150px 0 0 0;
+	margin: 305px 10px 50px 250px;
+	color:white;
+	font-size: 20px;
+}
+.column3 {
+	width: 25%;
+	float:right;
+	padding: 50px;
+	margin: 50px;
+}
+img {
+	width: 350px;
+	height: 250px;
+	margin: 50px;
+}
+.column2 h1 {
+	font-size: 50px;
+}

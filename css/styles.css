@@ -1,4 +1,5 @@
-h1 {
+div h1 {
+	
 
 }
 
@@ -42,4 +43,26 @@ img {
 }
 .best {
 	color: orange;
+}
+.column {
+	display: block;
+	float: left;
+	width: 30%;
+	margin-left: 250px;
+	margin-right: auto;
+	padding: 25px 25px 25px 75px;
+	background: rgba(250, 15, 0, 0.3);
+}
+.column2 {
+	display: block;
+	float: left;
+	width: 30%;
+	margin-left: auto;
+	margin-right: 250px;
+	padding: 25px 75px 25px 25px;
+	background: rgba(255, 150, 0, 0.3);
+	height: 234px;
+}
+.clear {
+	clear:both;
 }
