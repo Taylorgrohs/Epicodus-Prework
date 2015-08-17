@@ -1,0 +1,22 @@
+body {
+	background: url('../images/pawprints.jpg');
+	color: white;
+	font-size: 30px;
+}
+.post {
+	border: 1px solid black;
+	background: rgba(0, 0, 0, 0.7);
+	padding: 0 0 25px 25px;
+
+}
+.header {
+	background :black;
+	width: 300px;
+	text-align: center;
+	margin: auto;
+}
+.footer {
+	background: black;
+	margin: auto;
+	text-align: center;
+}
