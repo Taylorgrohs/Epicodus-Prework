@@ -21,7 +21,10 @@ ul, ol {
 	text-align: left;
 	margin: 0 auto 0 auto;
 }
-
+.flashy {
+	color: red;
+	font-style: italic;
+}
 
 
 a {
@@ -30,4 +33,13 @@ a {
 .list {
 	margin: 0 auto 0 auto;
 	width: 300px;
+}
+img {
+	width: 600px;
+	display: inline-block;
+        margin: 25px auto 0 auto;
+        
+}
+.best {
+	color: orange;
 }

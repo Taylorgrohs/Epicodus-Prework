@@ -5,18 +5,42 @@ body {
 }
 .post {
 	border: 1px solid black;
-	background: rgba(0, 0, 0, 0.7);
+	
 	padding: 0 0 25px 25px;
 
 }
 .header {
-	background :black;
+	
 	width: 300px;
 	text-align: center;
 	margin: auto;
 }
 .footer {
-	background: black;
 	margin: auto;
 	text-align: center;
+}
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.postcat {
+	border: 1px solid black;
+	background: rgba(0, 0, 0, 0.7);
+	padding: 0 0 25px 25px;
+	text-align: center;
+}
+ul{
+display: inline-block;
+        margin: 0;
+        padding: 0;
+    }
+.body {
+	float:left;
+	background: rgba(0, 0, 0, 0.7);
+	width: 70%;
+}
+.sidebar {
+	float: left;
+	width: 30%;
 }

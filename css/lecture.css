@@ -1,0 +1,21 @@
+.intro img{
+	width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 20px;
+}
+body {
+	background: gray;
+	color: white;
+text-align: center;
+}
+.intro {
+	font-size: 20px;
+	padding:  0 20px;
+	margin: 0 600px auto 600px;
+	font-weight: bold;
+}
+.intro h2 {
+	font-size: 30px;
+	text-decoration: underline;
+}
