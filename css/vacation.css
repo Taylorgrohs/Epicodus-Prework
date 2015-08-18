@@ -24,8 +24,22 @@ body {
 img {
 	width: 350px;
 	height: 250px;
-	margin: 50px;
+	margin: 200px 0 0 150px;
 }
-.column2 h1 {
+.column2 	h1 {
 	font-size: 50px;
+}
+.body {
+	font-size: 20px;
+	color: red;
+	margin: 220px 0 0 150px;
+	padding: 130px 0 0 30px;
+	width: 300px;
+
+}
+.body h1 {
+	text-align: center;
+}
+.body p {
+	margin: 25px;
 }

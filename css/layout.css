@@ -1,0 +1,55 @@
+body {
+	background: rgb(167, 160, 154);
+	margin: 0;
+
+}
+
+.body {
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 0;
+	margin-top: 0;
+}
+
+.head {
+	font-weight: bold;
+	background: rgb(221, 221, 221);
+	margin-bottom: 0;
+	margin-top: 0;
+	padding-left: 15px;
+}
+.head h1 {
+	margin: 0;
+	font-size: 70px;
+	padding-top: 0;
+}
+
+.links {
+	background: rgb(205, 153, 155);
+	font-size: 25px;
+	padding: 5px;
+}
+li {
+	font-size: 25px;
+}
+
+.column1 {
+	width: 68%;
+	background: rgb(154, 204, 153);
+	float: left;
+	padding-left: 15px;
+}
+h1 {
+	font-size: 70px;
+}
+p {
+	font-size: 25px;
+}
+
+.column2 {
+	background: rgb(153, 153, 203);
+	width: 30%;
+	float:left;
+	padding-left: 15px;
+	height: 900px;
+}

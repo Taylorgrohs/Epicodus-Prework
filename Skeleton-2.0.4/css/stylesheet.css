@@ -1,0 +1,25 @@
+.table {
+	width: 400px;
+	
+	text-align: center;
+	background: rgba(0, 0, 0, 0.7);
+	border: 1px solid white;
+	margin-left: 35px;
+}
+.head {
+	
+}
+body {
+	background: url('../images/lol.jpg') no-repeat;
+	background-size: 100%;
+	color: white;
+	text-align: center;
+}
+.head img {
+	margin-right: 15px;
+}
+.left {
+	background: rgba(255, 255, 255, 0.2);
+	width: 25%;
+	padding-bottom: 15px;
+}
