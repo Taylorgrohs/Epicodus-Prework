@@ -1,0 +1,17 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    descriptive_statistics (2.5.1)
+    dogeify (1.1.0)
+      engtagger
+    engtagger (0.2.0)
+
+PLATFORMS
+  x86-mingw32
+
+DEPENDENCIES
+  descriptive_statistics
+  dogeify
+
+BUNDLED WITH
+   1.10.6

@@ -143,3 +143,133 @@ add = add.join("")
 add
 end
 end
+
+age = 25
+if age.>=(21)
+"you can drink"
+else
+"you can't drink"
+end
+
+my_number = 7
+lucky_numbers = [7, 14]
+
+if lucky_numbers.include?(my_number)
+"your number is lucky"
+else
+"your number is not lucky"
+end
+
+class Fixnum
+	define_method(:abs) do
+		if self.>(0)
+			self
+		else
+			self.*(-1)
+		end
+	end
+end
+
+class String
+	define_method(:capitalize_vowels) do
+		vowels = ["a", "e", "i", "o", "u"]
+		old_letters = self.split("")
+		new_letters = []
+		old_letters.each() do |letter|
+			if vowels.include?(letter)
+				new_letter = letter.upcase()
+			else
+				new_letter = letter
+			end
+			new_letters.push(new_letter)
+		end
+		new_letters.join()
+	end
+end
+
+class Fixnum
+define_method(:absolutely_larger) do
+if self.>=(0)
+self.+(1)
+else
+self.-(1)
+end
+end
+end
+
+class Fixnum
+define_method(:alcohol) do
+self.>=(21)
+end
+end
+
+class Fixnum
+define_method(:double) do
+number = self.to_s
+numbers = [*'10'..'99', *'-10'..'-99']
+if numbers.include?(number)
+"Double digits!"
+else
+"Sorry Try again"
+end	
+end
+end
+
+age = 26
+gender = :female
+young = age.<(26)
+male = gender.eql?(:male)
+if young.&(male).!()
+"You are going to get the best insurance rates."
+end
+
+grade = "F"
+if grade.==("A")
+"Great job!"
+elsif grade.==("B").|(grade.==("C"))
+"Could have studied a little more..."
+elsif grade.==("D").|(grade.==("F"))
+"What have you been doing during calss?"
+else
+"What is your grade?"
+end
+
+temperature = 90
+if temperature.>=(60).&(temperature.<=(80))
+"It's balmy outside!"
+elsif temperature.>(80)
+"STAY INSIDE!!!!"
+else
+"It's a bit chilly out."
+end
+
+first_name = "aylor"
+first_letter = first_name.split("")
+letter = Array("A".."M")
+if letter.include?(first_letter.first.capitalize)
+"You're in!"
+else
+"sorry not on the list"
+end
+
+class Fixnum
+define_method(:ping_pong) do
+array = []
+total = (0..self)
+total = total.to_a
+total.each() do |x|
+if (x.== 0)
+array.push(x)
+elsif (x.%(3) == 0).&(x.%(5) == 0)
+array.push("ping-pong")
+elsif (x.%(3) == 0)
+array.push("ping")
+elsif (x.%(5) == 0)
+array.push("pong")
+else
+array.push(x)
+end
+end
+array
+end
+end
