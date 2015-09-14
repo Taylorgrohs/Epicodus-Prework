@@ -1,0 +1,69 @@
+.clear {
+	clear: both;
+}
+
+
+body {
+	background: url('../img/background.jpg');
+	color: white;
+
+}
+.body {
+	text-align: center;
+}
+table {
+	background: rgba(255, 255, 255, 0.3);
+}
+.table {
+	
+	width: 500px;
+	height: 60%;
+	font-weight: bold;
+	color: white;
+	padding-left:25px;
+	padding-top: 25px;
+	margin-top: 200px;
+	margin-right: 25px;
+	float: left;
+}
+tr {
+	border: 1px solid white;
+}
+td {
+	border: 1px solid white;
+}
+.subject {
+	text-decoration: underline;
+}
+a {
+	color: yellow;
+}
+.pics {
+	float: right;
+	margin-top: 200px;
+	padding-right: 25px;
+}
+.letter {
+	color: white;
+	margin: 200px auto 0 auto;
+	width: 40%;
+	background: rgba(0,0,0,0.8);
+	padding: 15px;
+}
+.list {
+	color: white;
+	width: 200px;
+	background: rgba(0,0,0,0.8);
+	border: 1px solid white; 
+	margin: 300px auto 0 auto;
+}
+.list h1 {
+	text-align: center;
+}
+.list a {
+	margin-left: 80px;
+}
+.pics p {
+	margin-top: 5px;
+	margin-bottom: 0;
+}
