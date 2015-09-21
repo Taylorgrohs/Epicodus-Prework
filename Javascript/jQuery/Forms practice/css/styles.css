@@ -1,0 +1,15 @@
+.letter {
+	display: none;
+	background: url('../img/background.jpg');
+	background-size: 100% auto;
+	font-weight: bold;
+}
+h4 {
+	text-align: right;
+}
+#receipt {
+	display: none;
+}
+#confirm {
+	display: none;
+}

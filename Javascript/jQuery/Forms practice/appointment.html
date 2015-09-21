@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+		<link href="css/styles.css" rel="stylesheet" type="text/css">
+		<script src="js/jquery-1.11.3.js"></script>
+		<script src="js/scripts4.js"></script>
+		<title>Appointment</title>
+	</head>
+
+	<body>
+	<div class="container">
+		<h1>Enter appointment info</h1>
+		<div id="order">
+			<form>
+				<div class="form-group">
+					<label for="firstname">First name</label>
+					<input id="firstname" class="form-control" type="text">
+				</div>
+				<div class="form-group">
+					<label for="lastname">Last name</label>
+					<input id="lastname" class="form-control" type="text">
+				</div>
+				<div class="form-group">
+					<label for="month">Month</label>
+					<input id="month" class="form-control" type="date">
+				</div>
+				<div class="form-group">
+					<label for="starttime">Start time</label>
+					<input id="starttime" class="form-control" type="time">
+				</div>
+				<div class="form-group">
+					<label for="endtime">End time</label>
+					<input id="endtime" class="form-control" type="time">
+				</div>
+				<div class="form-group">
+					<label for="phone">Phone number</label>
+					<input id="phone" class="form-control" type="text">
+				</div>
+				<button type="submit" class="btn btn-primary">Submit order</button>
+			</form>
+		</div>
+
+			<div id="confirm">
+				<h1>Your appointment has been made successfully!</h1>
+				<div class="border"
+				<p><span class="firstname"></span> <span class="lastname"></span></p>
+				<p><span class="month"></span> <span class="day"></span> from <span class="starttime"></span> to <span class="endtime"></span></p>
+				<p>Number to be reached:<span class="phone"></span>
+				<p>If you need to cancel or reschedule your appointment please call: (555)123-4567.</p>
+				</p>
+			</div>
+	</div>
+	</body>
+</html>

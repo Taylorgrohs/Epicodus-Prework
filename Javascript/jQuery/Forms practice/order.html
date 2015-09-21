@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+		<link href="css/styles.css" rel="stylesheet" type="text/css">
+		<script src="js/jquery-1.11.3.js"></script>
+		<script src="js/scripts3.js"></script>
+		<title>Order Form</title>
+	</head>
+
+	<body>
+	<div class="container">
+		<h1>Enter your order information.</h1>
+		<div id="order">
+			<form>
+				<div class="form-group">
+					<label for="firstname">First name</label>
+					<input id="firstname" class="form-control" type="text">
+				</div>
+				<div class="form-group">
+					<label for="lastname">Last name</label>
+					<input id="lastname" class="form-control" type="text">
+				</div>
+				<div class="form-group">
+					<label for="address">Adress</label>
+					<input id="address" class="form-control" type="text">
+				</div>
+				<div class="form-group">
+					<label for="state">State</label>
+					<input id="state" class="form-control" type="text">
+				</div>
+				<div class="form-group">
+					<label for="city">City</label>
+					<input id="city" class="form-control" type="text">
+				</div>
+				<div class="form-group">
+					<label for="zip">Zipcode</label>
+					<input id="zip" class="form-control" type="text">
+				</div>
+				<div class="form-group">
+					<label for="email">Email</label>
+					<input id="email" class="form-control" type="text">
+				</div>
+				<button type="submit" class="btn btn-primary">Submit order</button>
+			</form>
+		</div>
+
+			<div id="receipt">
+				<h1>Thank you for your order!</h1>
+				<p><span class="firstname"></span> <span class="lastname"></span></p>
+				<p><span class="address"></span>, <span class="city"></span>, <span class="state"></span> <span class="zip"></span></p>
+				<p>A confirmation email will be sent to <span class="email"></span> with all of the order details.</p>
+			</div>
+	</div>
+	</body>
+</html>

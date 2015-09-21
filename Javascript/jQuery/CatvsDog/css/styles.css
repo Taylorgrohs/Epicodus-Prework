@@ -1,0 +1,20 @@
+body {
+	background: url('../img/background.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+}
+.main {
+	background: rgba(255,255,255,0.8);
+	margin: 10 auto 10 auto;
+	padding-left: 350px;
+}
+#dog {
+	margin-left: 175px;
+}
+h2 {
+	text-align: center;
+	padding-left: 50px;
+}
+#user {
+	padding-left: 200px;
+}

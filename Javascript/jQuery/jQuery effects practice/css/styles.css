@@ -1,0 +1,41 @@
+.hidden1 {
+	display: none;
+}
+.hidden2 {
+	display: none;
+}
+.hidden3 {
+	display: none;
+}
+.clickable1 {
+	cursor: pointer;
+	color: #0088cc;
+}
+.clickable1:hover {
+	text-decoration: underline;
+}
+.clickable2 {
+	cursor: pointer;
+	color: #0088cc;
+}
+.clickable2:hover {
+	text-decoration: underline;
+}
+.clickable3 {
+	cursor: pointer;
+	color: #0088cc;
+}
+.clickable3:hover {
+	text-decoration: underline;
+}
+.container {
+	border: 1px solid black;
+	width: 50%;
+}
+.list {
+	margin: auto;
+	padding-left: 400px;
+}
+h1 {
+	text-align: center;
+}
